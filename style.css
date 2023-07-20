@@ -1,0 +1,474 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 240px;
+    padding: 25px 0px;
+    
+    
+    
+}
+.nav-logo{
+    width: 50%;
+    font-size: 2rem;
+    font-weight: 700;
+
+    
+}
+.nav-logo span{
+    color: #FF42A5;
+}
+.nav-content{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.nav-content li{
+    list-style: none;
+    margin-left: 20px;
+    color: #3C354F;
+    font-size: 1.1rem;
+    font-weight: 500;
+    
+
+}
+.nav-content li button{
+    width: 200px;
+    height: 60px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+    color: #3C354F;
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+.fa-youtube{
+    color: red;
+    padding: 0 2px;
+    font-size: 17px;
+}
+.fa-tiktok{
+    color: black;
+    font-size: 17px;
+}
+.banner-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    
+    
+    
+}
+.banner-content{
+    width: 50%;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
+    height: 80vh;
+    padding-top: 10px;
+}
+.banner-content{
+    padding-left: 200px;
+    padding-top: 130px;
+    background-image: url('images/Group\ 14.png');
+    
+}
+
+.banner-content-title1{
+    font-size: 2.5rem;
+    color: #0B0223;
+    font-weight: 600;
+}
+.banner-content-title2{
+    font-size: 4.5rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-content ul li{
+    color: #534C64;
+    
+    font-size: 1.25rem;
+    
+    font-weight: 500;
+    align-items:end;
+    list-style: none;
+    
+       
+}
+
+.banner-content-btn1{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    background-color: #F948B2;
+    border: none;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-right:24px ;
+}
+.banner-content-btn2{
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    background-color:#4EC5F7;
+    border: none;
+    border-radius: 25px;
+    margin-top: 30px;
+    
+
+}
+.span{
+    font-size: 100px;
+}
+
+.section-container{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.horse-container{
+    
+    max-width: 1400px;
+    margin: 30px auto 20px;
+    min-height: 100px;
+    display: flex;
+}
+.horse-content{
+    padding-top: 370px;
+    padding-left: 100px;
+
+    width: 50%;
+   text-align: right;
+   
+
+}
+.horse-title{
+    max-width: 350px;
+    font-weight: 700;
+    font-size: 3rem;
+    padding-bottom: 20px;
+    
+}
+.horse-desc{
+    max-width: 350px;
+    color: #534C64;
+    line-height: 30px; 
+    font-size: 1.1rem;
+}
+.play-instantly{
+    color:  #F948B2;
+}
+.horse-img{
+    width: 50%;
+   
+}
+.horse-img img{
+    width: 100%;
+}
+.horse-img .img-overlap{
+    width: 50%;
+    position: relative;
+    top:-270px;
+    right: 150px;
+}
+
+
+.icon-container{
+    margin: 130px 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    color: #0B0223;
+    font-size: 1.25rem;
+    font-weight: 600;
+    gap: 40px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.icon-content-1{
+    display: flex;
+    align-items: center;
+    
+}
+.icon-content-1:hover{
+    color: #F948B2;
+    border: 1px solid #F948B2 ;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background: #FFF;
+    
+}
+.icon-content-2{
+    display: flex;
+    align-items: center;
+}
+.icon-content-2:hover{
+    color: #F948B2;
+    border: 1px solid #F948B2 ;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background: #FFF;
+}
+.icon-content-3{
+    display: flex;
+    align-items: center;
+}
+.icon-content-3:hover{
+    color: #F948B2;
+    border: 1px solid #F948B2 ;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background: #FFF;
+}
+.icon-content-4{
+    display: flex;
+    align-items: center;
+}
+.icon-content-4:hover{
+    color: #F948B2;
+    border: 1px solid #F948B2 ;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background: #FFF;  
+}
+.icon-content-5{
+    display: flex;
+    align-items: center;
+}
+.icon-content-5:hover{
+    color: #F948B2;
+    border: 1px solid #F948B2 ;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background: #FFF;  
+}
+.icon-content-6{
+    display: flex;
+    align-items: center;
+}
+.icon-content-6:hover{
+    color: #F948B2;
+    border: 1px solid #F948B2 ;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background: #FFF; 
+}
+.icon-content-7{
+    display: flex;
+    align-items: center;
+}
+.icon-content-7:hover{
+    color: #F948B2;
+    border: 1px solid #F948B2 ;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background: #FFF; 
+}
+.icon-content-8{
+    display: flex;
+    align-items: center;
+}
+.icon-content-8:hover{
+    color: #F948B2;
+    border: 1px solid #F948B2 ;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background: #FFF; 
+}
+.icon-content-9{
+    display: flex;
+    align-items: center;
+}
+.icon-content-9:hover{
+    color: #F948B2;
+    border: 1px solid #F948B2 ;
+    border-radius: 50px;
+    padding: 5px 10px;
+    background: #FFF; 
+}
+footer{
+    background: #0B0223;
+    
+    
+}
+.footer-title{
+    color: #FFF;
+    padding-top: 30px;
+}
+.G{
+    color: #FF42A5;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.footer-title{
+    text-align: center;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-content li{
+    list-style: none;
+    padding: 0px 25px;
+    padding-top: 50px;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+.footer-icon li{
+list-style: none;
+margin: 30px;
+font-size: 2rem;
+}
+.footer-para{
+   display: flex; 
+   color:  rgba(255, 255, 255, 0.60);
+   text-align: center;
+   font-weight: 500;
+   list-style: none;
+   justify-content: center;
+   margin: 0px 20px;
+   
+
+}
+.footer-last-item{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px)  {
+    .nav-container , .nav-content {
+        flex-direction: column;
+    }
+    .nav-logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .nav-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .nav-content li{
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+
+    }
+    .nav-content button{
+        margin-top: 10px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        width: 100%;
+        padding-left: 80px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-right: 20px;
+
+
+        margin: 20px 4px 35px 80px;
+       
+        
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-img img{
+        padding: 0px 70px 0px 70px;
+    }
+    .section-container{
+        align-items: center;
+        padding-left: 50px;
+    }
+    .icon-container{
+        width: 100%;
+        display: grid;
+       padding-left: 240px;
+       padding-bottom: 200px;
+       padding-top: 30px;
+        margin: 0 auto;
+        gap: 15px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+        
+        
+
+    }
+@media screen and (min-width:576px) and (max-width:960px) {
+    .nav-container ,.banner-container {
+        flex-direction: column;
+    }  
+    .nav-content{
+        width: 100%;
+        display: flex;
+        gap: 30px;
+        
+    }
+    .banner-content{
+        width: 100%;
+        margin-left: 70px;
+    }
+    .banner-img{
+        width: 100%;
+        
+    }
+    .banner-img img{
+        height: 160vh;
+        
+        padding: 20px 70px 20px 70px;
+    }
+}
