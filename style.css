@@ -377,9 +377,11 @@ nav{
 
 footer{
     background: #0B0223;
-    
+   height: auto;
+   width: 98vw;
     margin: 0 auto;
     margin-top: 30px;
+   
     
     
 }
@@ -398,6 +400,7 @@ footer{
 }
 .footer-content{
     display: flex;
+    
     justify-content: center;
     
 }
@@ -420,12 +423,16 @@ list-style: none;
 margin: 30px;
 font-size: 2rem;
 }
+.footer-para li{
+    padding-left: 20px;
+}
 .footer-para{
    display: flex; 
    color:  rgba(255, 255, 255, 0.60);
    text-align: center;
    font-weight: 500;
    list-style: none;
+   
    justify-content: center;
    margin: 0px 20px;
    
@@ -557,13 +564,21 @@ font-size: 2rem;
         display: grid;
         grid-template-columns:repeat(3,1fr) ;
     }
-    
-    .footer-container{
-    
-    width: 100%;
-
+    footer{
+        width: 105%;
+        margin: 0px 0px;
     }
-        
+    .footer-content{
+        font-size: 1.5rem;
+        padding: 20px 10px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 100%;
+    }
+    .footer-last-item{
+        font-size: 10px;
+    }
+    
 
     }
 
