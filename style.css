@@ -15,8 +15,8 @@ nav{
 .nav-container{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 0 240px;
+    max-width: 1400px;
+    margin: 0 auto;
     padding: 25px 0px;
     
     
@@ -26,17 +26,22 @@ nav{
     width: 50%;
     font-size: 2rem;
     font-weight: 700;
+    
 
     
 }
 .nav-logo span{
     color: #FF42A5;
 }
+.fa {
+    padding-right: 15px;
+}
 .nav-content{
     display: flex;
     width: 50%;
     align-items: center;
-    justify-content: space-around;
+    
+    justify-content: space-between;
     
 
 }
@@ -44,7 +49,7 @@ nav{
     list-style: none;
     margin-left: 20px;
     color: #3C354F;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 500;
     
 
@@ -52,7 +57,7 @@ nav{
 .nav-content li button{
     width: 200px;
     height: 60px;
-    padding: 8px 20px;
+    padding: 8px 15px;
     border: none;
     border-radius: 8px;
     align-items: center;
@@ -70,7 +75,12 @@ nav{
     color: black;
     font-size: 17px;
 }
-.banner-container{
+
+
+ .banner-container{
+    
+    max-width: 1900px;
+    margin: 0 auto;
     display: flex;
     gap: 20px;
     justify-content: space-between;
@@ -85,12 +95,14 @@ nav{
     width: 50%;
 }
 .banner-img img{
-    height: 80vh;
+    height: 100%;
+    width: 100%;
     padding-top: 10px;
 }
 .banner-content{
-    padding-left: 200px;
-    padding-top: 130px;
+    
+    padding-top: 200px;
+    text-align: center;
     background-image: url('images/Group\ 14.png');
     
 }
@@ -126,7 +138,7 @@ nav{
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
-    padding: 15px 25px;
+    padding: 15px 30px;
     background-color: #F948B2;
     border: none;
     border-radius: 25px;
@@ -148,11 +160,54 @@ nav{
 }
 .span{
     font-size: 100px;
+
 }
+/*
 
 .section-container{
     text-align: center;
     padding-top: 100px;
+    padding-bottom: 50px;
+}
+.section-container-title{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+.Funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-container-desc{
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.game-container{
+    margin: 0px auto;
+    max-width: 1400px;
+
+
+}
+.game-content{
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.game-content p{
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 30px;
 }
 
 .horse-container{
@@ -375,6 +430,7 @@ font-size: 2rem;
     margin-top: 50px;
     padding-bottom: 20px;
 }
+*/
 
 
 
@@ -384,51 +440,39 @@ font-size: 2rem;
 
 
 @media screen and (max-width:576px)  {
-    .nav-container , .nav-content {
+    .nav-container ,.nav-content{
         flex-direction: column;
+        
     }
     .nav-logo{
         width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 50px;
+        text-align: center;
+        padding-bottom: 60px;
+        
     }
     .nav-content{
         width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .nav-content li{
-        margin-left: 0px;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 30px;
-
-    }
-    .nav-content button{
-        margin-top: 10px;
-    }
-    .banner-container{
-        flex-direction: column-reverse;
-    }
-    .banner-content{
-        width: 100%;
-        padding-left: 80px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-right: 20px;
-
-
-        margin: 20px 4px 35px 80px;
-       
         
     }
-    .banner-img{
+    .nav-content li{
+        padding-bottom: 40px;
+    }
+    .banner-container{
+
+        flex-direction: column-reverse;
+    }
+    
+    .banner-content{
         width: 100%;
+        margin: 0 20px;
+        padding-bottom: 20px;
     }
-    .banner-img img{
-        padding: 0px 70px 0px 70px;
+    .banner-img {
+        width: 100%;
+        padding: 30px 50px;
     }
+    
+    /*
     .section-container{
         align-items: center;
         padding-left: 50px;
@@ -443,11 +487,12 @@ font-size: 2rem;
         gap: 15px;
         grid-template-columns: repeat(3,1fr);
     }
-    
-        
+    */
         
 
     }
+
+
 @media screen and (min-width:576px) and (max-width:960px) {
     .nav-container ,.banner-container {
         flex-direction: column;
@@ -457,6 +502,11 @@ font-size: 2rem;
         display: flex;
         gap: 30px;
         
+    }
+    .nav-logo{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
     }
     .banner-content{
         width: 100%;
@@ -470,5 +520,6 @@ font-size: 2rem;
         height: 160vh;
         
         padding: 20px 70px 20px 70px;
+    
     }
 }
